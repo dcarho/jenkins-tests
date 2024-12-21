@@ -4,7 +4,7 @@ import unittest
 class TestCalculaMedia(unittest.TestCase):
     
     def test_1(self):
-        resultado = saludar("Daniel")
+        resultado = saludar("David")
         self.assertEqual(resultado, "Hola Daniel")
 
     def test_2(self):
