@@ -4,7 +4,7 @@ import unittest
 class TestCalculaMedia(unittest.TestCase):
     
     def test_1(self):
-        resultado = mayor_edad(12)
+        resultado = mayor_edad(15)
         self.assertFalse(resultado)
 
 if __name__ == '__main__':
